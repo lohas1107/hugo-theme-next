@@ -185,7 +185,7 @@ th {
 }
 body {
   position: relative;
-  font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Monda', "PingFang TC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
   line-height: 2;
   color: #555;
@@ -216,7 +216,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: 'Roboto Slab', 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Roboto Slab', 'Monda', "PingFang TC", "Microsoft YaHei", sans-serif;
 }
 h2,
 h3,
@@ -274,7 +274,7 @@ h6 {
   }
 }
 p {
-  margin: 0 0 25px 0;
+  margin: 0 0 10px 0;
 }
 a {
   color: #555;
@@ -287,7 +287,7 @@ a:hover {
   border-bottom-color: #222;
 }
 blockquote {
-  margin: 0;
+  margin: 10px;
   padding: 0;
 }
 img {
@@ -500,7 +500,7 @@ pre,
 }
 pre,
 code {
-  font-family: 'PT Mono', consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
+  font-family: 'PT Mono', consolas, Menlo, "PingFang TC", "Microsoft YaHei", monospace;
 }
 code {
   padding: 2px 4px;
@@ -522,7 +522,7 @@ pre code {
 .highlight pre {
   border: none;
   margin: 0;
-  padding: 10px 0;
+  padding: 10px;
 }
 .highlight table {
   margin: 0;
@@ -918,7 +918,7 @@ pre .javascript .function {
   line-height: 36px;
   font-size: 24px;
   font-weight: normal;
-  font-family: 'Lobster Two', 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lobster Two', 'Monda', "PingFang TC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1007,11 +1007,11 @@ pre .javascript .function {
   opacity: 0;
 }
 .post-body {
-  font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Monda', "PingFang TC", "Microsoft YaHei", sans-serif;
 }
 .post-body h1 {
   border-left: solid 5px #428bca;
-  padding: 5px;
+  padding: 5px 5px 5px 20px;
   margin: 10px 0;
 }
 @media (max-width: 767px) {
@@ -1054,7 +1054,7 @@ pre .javascript .function {
   }
   .post-body pre,
   .post-body .highlight {
-    padding: 10px;
+    /*padding: 10px;*/
   }
   .post-body pre .gutter pre,
   .post-body .highlight .gutter pre {
@@ -1241,6 +1241,7 @@ pre .javascript .function {
   display: inline-block;
   position: relative;
   color: #555;
+  font-weight:bold;
   border-bottom: none;
   line-height: 1.2;
   vertical-align: top;
@@ -1277,7 +1278,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
   color: #999;
-  font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Monda', "PingFang TC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
 }

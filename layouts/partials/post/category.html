@@ -9,11 +9,9 @@
   {{ range .Params.categories }}
     <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
       <a href="/categories/{{ . | urlize }}" itemprop="url" rel="index">
-        <span itemprop="name">{{ . }}</span>
-      </a>
-      &nbsp; 
+        <span itemprop="name">{{ . }}</span></a>
     </span>
   {{ end }}
-</span>
+  </span>
 {{ end }}
 {{ end }}
