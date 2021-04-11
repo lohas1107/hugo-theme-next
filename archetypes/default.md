@@ -1,10 +1,11 @@
 ---
-title: "xxxx"
-date: "2017-02-03"
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
 categories:
  - "xx"
 tags:
  - "xxx"
  - "xxx"
 toc: true
+draft: true
 ---
