@@ -35,6 +35,11 @@ GoogleAnalytics = ""
 [Author]
   Name = "兰陵子"
 
+[markup]
+[markup.tableOfContents]
+endLevel = 3
+startLevel = 1
+
 [Params.Share]
   #DuoShuo = "lanlingzi"
   Baidu = true
