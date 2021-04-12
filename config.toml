@@ -1,5 +1,5 @@
 Title =  "蘭陵N散記"
-LanguageCode = "zh-CN"
+LanguageCode = "zh-TW"
 BaseUrl = "http://lanlingzi.cn/"
 Theme =  "next"
 MetaDataFormat =  "yaml"
@@ -11,10 +11,11 @@ DisablePathToLower =  false
 HasCJKLanguage = true
 PreserveTaxonomyNames = false
 UglyUrls = false
-PygmentsStyle = "monokai"
+PygmentsStyle = "solarized-light"
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
-DefaultContentLanguage = "zh"
+DefaultContentLanguage = "zh-tw"
+GoogleAnalytics = ""
 
 [Params]
   Introduce = "Programmer & Architect"
