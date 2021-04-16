@@ -16,6 +16,7 @@ pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 DefaultContentLanguage = "zh-tw"
 GoogleAnalytics = ""
+enableGitInfo = true
 
 [Params]
   Introduce = "Programmer & Architect"
@@ -34,6 +35,12 @@ GoogleAnalytics = ""
 
 [Author]
   Name = "兰陵子"
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+expiryDate = ["expiryDate"]
+lastmod = [":git", "lastmod", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
 
 [markup]
 [markup.tableOfContents]

@@ -20,8 +20,10 @@
   translation: Site Information
 - id: Link
   translation: Links 
-- id: Time
+- id: PublishTime
   translation: Published at
+- id: UpdateTime
+  translation: Updated at
 - id: View
   translation: Reading
 - id: ReadMore

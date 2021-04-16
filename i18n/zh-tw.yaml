@@ -20,8 +20,10 @@
   translation: 網站概覽
 - id: Link
   translation: 連結
-- id: Time
-  translation: 時間
+- id: PublishTime
+  translation: 發布
+- id: UpdateTime
+  translation: 更新
 - id: View
   translation: 閱讀
 - id: ReadMore
