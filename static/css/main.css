@@ -2645,6 +2645,6 @@ body {
 }
 @media (max-width: 767px) {
   .post-body {
-    text-align: justify;
+    /*text-align: justify;*/
   }
 }
