@@ -1,0 +1,9 @@
+<span class="expand">
+    <span class="expand-label" style="color: #999999;cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? '{{.Get 2 | default `fa fa-chevron-down`}}' : 'fa fa-{{.Get 1 | default `fa fa-chevron-right`}}';});});">
+        {{.Get 0 | markdownify }}
+        <i class="{{.Get 1 | default `fa fa-chevron-right`}}"></i>
+    </span>
+    <div class="expand-content" style="display: none; margin: 10px 0px 10px;">
+        {{.Inner | markdownify }}
+    </div>
+</span>
